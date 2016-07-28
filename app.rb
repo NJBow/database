@@ -31,5 +31,10 @@ get '/tags/:name' do
   erb :'links/index'
 end
 
+
+get '/account/new' do
+  erb :'account/new'
+end
+
     run! if app_file == $0
 end
